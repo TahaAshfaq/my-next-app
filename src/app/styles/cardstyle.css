@@ -1,0 +1,144 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dadada;
+    justify-content: center; 
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: white;
+    transition:  box-shadow 0.4s ease-in-out;
+
+    /* remove this */
+    margin: 10px;
+
+}
+.card:hover {
+    cursor: pointer;
+    /* width: 270px; */
+    /* border-radius: 0px; */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+.cardupper{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    justify-content: space-between;
+}
+.cardupper p{
+    font-size: 15px;
+    color: #666666;
+}
+.cardupper .status{
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+.cardupper .status p{
+    font-size: 12px;
+    font-weight: 300;
+    float: right;
+    color: #ffffff;
+}
+.cardmid{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    width: 230px;
+}
+.priority{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 5px ;
+    width: 115px;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.date{
+    display: flex;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 115px;
+    background-color: #f9f9f9;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.cardlower{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    width: 220px;
+}
+.cardlower button{
+    color: #666666;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 2px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+#B {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px; /* Increased padding for better appearance */
+    transition: all 0.15s ease-in; /* Smooth transition for all properties */
+
+
+}
+
+#B:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+    color: #fff; /* Change text color on hover for better contrast */
+    border-radius: 100%;
+}
+#A {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px; /* Increased padding for better appearance */
+    transition: all 0.15s ease-in; /* Smooth transition for all properties */
+
+}
+
+#A:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 100%;
+}
+.Labistro{
+    color: #575757;
+    margin: 20px 0px 40px 0px;
+}
+.LabistroDesc{
+    color: #575757;
+    margin: 20px 0px 0px 0px;
+    overflow-wrap: break-word; /* Forces long words to break */
+    word-wrap: break-word; /* Legacy support */
+    white-space: normal;
+}
+.Labistro h3{
+    color: #212121;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.editdelete{
+    display: flex;
+    flex-direction: row;
+
+}

@@ -1,0 +1,18 @@
+.columnTitle{   
+    width: 270px;
+    padding:10px 0px;
+    text-align: center;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    color: white;
+    margin: 5px 5px;
+}
+.taskSpace{
+    width: 270px;
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

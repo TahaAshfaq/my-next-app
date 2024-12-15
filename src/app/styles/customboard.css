@@ -1,0 +1,158 @@
+.customboardspre{
+  display: flex;
+  justify-content: center;
+}
+.custom-board {
+    padding: 4rem 0;
+    margin: 0px 100px;
+    max-width: 1200px;
+
+  }
+  
+  .custom-board-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .custom-board-content {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .custom-board-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .custom-board-description {
+    color: #666;
+  }
+  
+  .custom-board-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+  }
+  .custom-board-section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+  }
+
+
+  .custom-board-section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .custom-board-image {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  
+
+  .custom-board-content {
+    width: 48%;
+    text-align: left;
+  } 
+  
+  @media (max-width: 1000px) {
+    .custom-board {
+     padding-top: 0px;
+    }
+    
+    .img{
+      width: 400px;
+    }
+    
+    /* .custom-board-title {
+      text-align: center;
+    }
+    .custom-board-description {
+      text-align: center;
+    }   */
+    .custom-board {
+      margin: 0px 50px;
+    }
+    
+  
+    .custom-board-section:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  
+    .custom-board-image {
+      width: 48%;
+      margin-bottom: 0;
+    }
+  
+    .custom-board-content {
+      width: 48%;
+      text-align: left;
+    }
+  }
+  @media(max-width: 768px){
+    .custom-board-content {
+      padding-right: 150px;
+      width: 100%;
+      text-align: left;
+    } 
+    
+    .custom-board-section {
+     
+      align-items: left;
+  
+  
+    }
+    .custom-board-section2 {
+     
+      align-items: left;
+  
+  
+    }
+    .custom-board-description {
+      margin-bottom: 30px;
+
+    }
+
+    .img{
+      width: 100%;
+    }
+    .custom-board-section {
+      flex-direction: column-reverse;
+
+    }
+    .custom-board-section2 {
+      flex-direction: column;
+
+    }
+    .custom-board {
+      margin: 0px 20px;
+    }
+  
+  }@media(max-width: 600px){
+    .custom-board-description {
+      margin-bottom: 0px;
+
+    }
+    
+    .custom-board-content {
+      padding-right: 0px;
+   
+    } 
+    
+  }
+  
+  
+  
+  

@@ -1,6 +1,6 @@
 .footer {
     background-color: #FFF5F2;
-    padding: 4rem 0 2rem;
+    padding: 4rem 100px 2rem;
   }
   
   .footer-content {
@@ -76,5 +76,20 @@
     border-top: 1px solid #e0e0e0;
     color: #666;
   }
+  
+  
+
+  @media (max-width: 1000px) {
+    .footer {
+      padding: 4rem 50px 2rem;
+    }
+  }
+  @media(max-width: 768px){
+    .footer {
+      padding: 4rem 20px 2rem;
+    }
+  }
+  
+  
   
   

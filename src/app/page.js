@@ -6,26 +6,23 @@ import Features from "./components/Features.jsx";
 import Footer from "./components/Footer.jsx";
 import Workspace from "./components/Workspace.jsx";
 import CustomBoard from "./components/CustomBoard.jsx";
-
-
-
-
-
-
+import Login from "./components/Login.jsx";
+import Signup from "./components/Signup.jsx";
 
 export default function Home() {
   return (
     <>
-    <Navbar />
+      {/* <Signup />
+    <Login /> */}
+
+      <Navbar />
     <Hero />
     <Features />
     <Workspace />
     <CustomBoard />
     <Footer />
 
-
-    {/* <Board /> */}
-    {/* <Dashboard /> */}
+      {/* <Board /> */}
     </>
   );
 }

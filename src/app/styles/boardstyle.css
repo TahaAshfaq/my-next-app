@@ -21,10 +21,13 @@
 
 }
 .boardColumns{
+  border-radius: 15px;
   display: flex;
+  /* flex-wrap: wrap; */
   flex-direction: row;
   height: 70vh;
   overflow: scroll;
+  overflow-x: hidden;
   .container::-webkit-scrollbar {
   display: none; 
   }
@@ -315,7 +318,6 @@
     width: 100%;
     height: 300%;
   }
-  /* ------------------------------------------------------------------------------ */
   #description {
     width: 100%; /* Full width of the form */
     min-height: 150px; /* Initial height */
@@ -328,4 +330,50 @@
     border-radius: 4px;
     font-family: inherit;
     font-size: inherit;  }
+
+
+  /* ------------------------------------------------------------------------------ */
+  @media (max-width: 1280px) {
+    .borderOuter{
+      width: 100%;
+    }
+    .board{
+      width: 100%;
+    }
+    .boardColumns {
+      width: 100%;
+
+      overflow-y: hidden;
+      overflow: scroll; /* Enable scrolling both horizontally and vertically */
+    }
+    
+    /* Hide scrollbar for Webkit (Chrome, Safari) */
+    .boardColumns::-webkit-scrollbar {
+      display: none;
+    }
+  
+    /* Hide scrollbar for IE, Edge */
+    .boardColumns {
+      -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer and Edge */
+      scrollbar-width: none;    /* Hide scrollbar in Firefox */
+    }
+  }
+
+  /* @media (max-width: 1145px) {
+    .board{
+      width: 70%;
+    }
+    .boardColumns {
+      background-color: #ededed;
+
+    }
+    
+  }
+   */
+  
+
+
+
+
+
   

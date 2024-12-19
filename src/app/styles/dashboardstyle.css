@@ -78,3 +78,36 @@
     border-radius: 5px;
   }
   
+    /* ------------------------------------------------------------------------------ */
+    @media (max-width: 1280px) {
+
+      .dashboard{
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: column;
+      }
+      .sidebar {
+        width: auto;
+        height: 80px;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .sidebarinner{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+      #sidebarcards{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        height: 40px;
+      }
+      .add-button{
+        height: 40px;
+        width: 40px;
+      }
+      .search-field{
+        display: none;
+      }
+    }
